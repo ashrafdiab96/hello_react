@@ -1,0 +1,25 @@
+.cardWeapper {
+    width: 500px;
+    padding: 10px;
+    border: 1px solid #000;
+    margin-top: 20px;
+    position: relative;
+}
+
+.delBtn {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+    border-radius: 50%;
+}
