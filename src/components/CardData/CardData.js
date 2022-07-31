@@ -9,7 +9,7 @@ const CardData = (props) => {
             <div>Age: {card.age}</div>
             <div>Job: {card.job}</div>
             <div>Address: {card.address}</div>
-            <div className={styles.delBtn}>X</div>
+            <div className={styles.delBtn} onClick={(event) => props.deleteData(event, index)}>X</div>
         </div>
     ));
 

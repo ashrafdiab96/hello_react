@@ -4,3 +4,12 @@
     align-items: center;
     flex-direction: column;
 }
+
+.btn {
+    margin: 10px 0 10px 0;
+    border: 0;
+    background-color: yellowgreen;
+    color: #fff;
+    padding: 8px 25px;
+    cursor: pointer;
+}
